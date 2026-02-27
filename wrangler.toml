@@ -5,3 +5,7 @@ compatibility_date = "2026-02-27"
 [[r2_buckets]]
 binding = "R2_BUCKET"
 bucket_name = "lms-server"
+
+[vars]
+R2_BUCKET_NAME = "lms-server"
+R2_PRESIGN_EXPIRES = "300"
